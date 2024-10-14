@@ -25,20 +25,20 @@
                     <h4>BOOK <span>APPOINTMENT</span></h4>
                     <div class="form-row">
                         <div class="form-group col-lg-4">
-                            <label for="appointmentPatientName">Patient Name</label>
-                            <input type="text" class="form-control" id="appointmentPatientName" name="patientName" required>
+                            <label for="inputPatientName">Patient Name</label>
+                            <input type="text" class="form-control" id="inputPatientName" name="patientName" required>
                         </div>
                         <div class="form-group col-lg-4">
-                            <label for="appointmentDoctorName">Doctor's Name</label>
-                            <select class="form-control" id="appointmentDoctorName" name="doctorName" required>
+                            <label for="inputDoctorName">Doctor's Name</label>
+                            <select class="form-control" id="inputDoctorName" name="doctorName" required>
                                 <option value="Dr.Henry">Dr.Henry</option>
                                 <option value="Dr.Jennie">Dr.Jennie</option>
                                 <option value="Dr.Marco">Dr.Marco</option>
                             </select>
                         </div>
                         <div class="form-group col-lg-4">
-                            <label for="appointmentDepartmentName">Department's Name</label>
-                            <select class="form-control" id="appointmentDepartmentName" name="departmentName" required>
+                            <label for="inputDepartmentName">Department's Name</label>
+                            <select class="form-control" id="inputDepartmentName" name="departmentName" required>
                                 <option value="Psychology">Psychology</option>
                                 <option value="Cardiology">Cardiology</option>
                                 <option value="Dermatologist">Dermatologist</option>
@@ -47,16 +47,16 @@
                     </div>
                     <div class="form-row">
                         <div class="form-group col-lg-4">
-                            <label for="appointmentPhone">Phone Number</label>
-                            <input type="tel" class="form-control" id="appointmentPhone" name="phone" required>
+                            <label for="inputPhone">Phone Number</label>
+                            <input type="tel" class="form-control" id="inputPhone" name="phone" required>
                         </div>
                         <div class="form-group col-lg-4">
-                            <label for="appointmentSymptoms">Symptoms</label>
-                            <input type="text" class="form-control" id="appointmentSymptoms" name="symptoms" required>
+                            <label for="inputSymptoms">Symptoms</label>
+                            <input type="text" class="form-control" id="inputSymptoms" name="symptoms" required>
                         </div>
                         <div class="form-group col-lg-4">
-                            <label for="appointmentDate">Choose Date</label>
-                            <input type="text" class="form-control" id="appointmentDate" name="date" placeholder="MM-DD-YYYY" required readonly>
+                            <label for="inputDate">Choose Date</label>
+                            <input type="text" class="form-control" id="inputDate" name="date" placeholder="MM-DD-YYYY" required readonly>
                         </div>
                     </div>
                     <div class="btn-box">
