@@ -8,21 +8,21 @@
       <div class="row">
         <div class="col-md-7">
           <div class="form_container">
-            <form action="">
+            <form action="contact_confirmation.php" method="POST">
               <div>
-                <input type="text" placeholder="Full Name" />
+                <input type="text" name="full_name" placeholder="Full Name" required />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input type="email" name="email" placeholder="Email" required />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input type="text" name="phone_number" placeholder="Phone Number" required />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <textarea name="message" class="message-box" placeholder="Message" required></textarea>
               </div>
               <div class="btn_box">
-                <button>
+                <button type="submit">
                   SEND
                 </button>
               </div>
@@ -36,4 +36,4 @@
         </div>
       </div>
     </div>
-  </section>
+</section>
